@@ -36,10 +36,169 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 104.34093604766281,
-			"y": 1459.6285263414848,
-			"lastActivityTimestamp": 1749927529202,
+			"x": 1421.2540932541926,
+			"y": 505.8529730333582,
+			"lastActivityTimestamp": 1750082494241,
 			"meta": {}
+		},
+		{
+			"x": 1197.8933618776803,
+			"y": 361.879810643527,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:zeTxBYCUHcDZhLJeAKs7o",
+			"type": "text",
+			"props": {
+				"color": "orange",
+				"size": "m",
+				"w": 352.72918701171875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "id -> uuid"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "name -> string"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "address -> string"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "pfp -> image (url)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "products -> []"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "rating -> model"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "reviews -> model"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "returns -> model"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "money_dashboard -> model"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aF53j",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:khjyvcGz7xRlMsGF11MZN",
+			"type": "arrow",
+			"fromId": "shape:NgLKUI7IaT-jz65ZWSP6q",
+			"toId": "shape:Xeosua5SKTTjJ_I8TMkfy",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 1,
+					"y": 0.8480780583409295
+				},
+				"snap": "edge",
+				"terminal": "start"
+			},
+			"typeName": "binding"
 		},
 		{
 			"x": 309.3590633767435,
@@ -201,9 +360,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 1359.7969965907919,
-			"y": -378.6531631382753,
-			"z": 0.315270846969785,
+			"x": -479.58149836829347,
+			"y": -202.90450134053265,
+			"z": 0.7107920286291644,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -341,49 +500,232 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -240.77367070172482,
-			"y": 1109.33662825591,
+			"x": 1043.136356528994,
+			"y": 680.0882722645939,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
 			"meta": {},
-			"id": "shape:S2xrRLhNcvDJOnh6_mUxt",
-			"type": "geo",
+			"id": "shape:NgLKUI7IaT-jz65ZWSP6q",
+			"type": "arrow",
 			"props": {
-				"w": 342.07158950752256,
-				"h": 508.4554357702699,
-				"geo": "rectangle",
-				"color": "orange",
-				"labelColor": "black",
-				"fill": "none",
+				"kind": "elbow",
+				"elbowMidPoint": 0.5,
 				"dash": "draw",
 				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 125.68145171200922,
+					"y": -302.9484287582161
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
 				"font": "draw",
-				"align": "middle",
-				"verticalAlign": "middle",
-				"growY": 0,
-				"url": "",
-				"scale": 1,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aG5qn",
+			"typeName": "shape"
+		},
+		{
+			"x": 787.3073800267523,
+			"y": 359.3839445802555,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:_SCqv0Nm9lK8dUKd4n_U7",
+			"type": "text",
+			"props": {
+				"color": "orange",
+				"size": "m",
+				"w": 243.4238558503927,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 0.8010382407400639,
 				"richText": {
 					"type": "doc",
 					"content": [
 						{
-							"type": "paragraph"
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "id -> uuid"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "name -> string"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "description -> model"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "images"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "price->string"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "discount ->string"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "discountedPrice ->string"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "availability ->boolean"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "category -> enum"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "tags->string"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "rating ->model"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "reviews->model"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "seller->model"
+								}
+							]
 						}
 					]
 				}
 			},
 			"parentId": "page:page",
-			"index": "aA6yN",
+			"index": "aC8sm",
 			"typeName": "shape"
 		},
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:S2xrRLhNcvDJOnh6_mUxt"
+				"shape:DJPdtCJszOmxwt0huJFaG"
 			],
-			"hoveredShapeId": "shape:nDH3n5Rn0weJZA4v615EZ",
+			"hoveredShapeId": "shape:zeTxBYCUHcDZhLJeAKs7o",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -448,6 +790,121 @@
 				"terminal": "start"
 			},
 			"typeName": "binding"
+		},
+		{
+			"x": 776.1314862143444,
+			"y": 347.1570714665605,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Xeosua5SKTTjJ_I8TMkfy",
+			"type": "geo",
+			"props": {
+				"w": 264.10874470053193,
+				"h": 392.5714119397653,
+				"geo": "rectangle",
+				"color": "orange",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aA3p4",
+			"typeName": "shape"
+		},
+		{
+			"x": 844.675322507605,
+			"y": 310.46793489998265,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:2Fb3JNwi3vl-2KCNiZOXE",
+			"type": "text",
+			"props": {
+				"color": "orange",
+				"size": "m",
+				"w": 115.20169903297882,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 0.7720861737765682,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Item Model"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aB906",
+			"typeName": "shape"
+		},
+		{
+			"x": 1292.6233180638112,
+			"y": 308.4183648874333,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ijkxfhDMZOgYHTXRkfVre",
+			"type": "text",
+			"props": {
+				"color": "orange",
+				"size": "m",
+				"w": 159.3854217529297,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Seller Model"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aD8FS",
+			"typeName": "shape"
 		},
 		{
 			"x": 334.44815891780536,
@@ -661,6 +1118,43 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 1178.1970454063048,
+			"y": 345.25051657337985,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:2KveaAQtguS33oZP4bj_X",
+			"type": "geo",
+			"props": {
+				"w": 396.74060720548914,
+				"h": 389.2372367938224,
+				"geo": "rectangle",
+				"color": "orange",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aE0rl",
+			"typeName": "shape"
+		},
+		{
 			"x": -203.71132681774955,
 			"y": 352.1091326859242,
 			"rotation": 0,
@@ -737,42 +1231,40 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -126.48568416736657,
-			"y": 1066.6762907880586,
+			"x": 1451.2675319662512,
+			"y": 499.28749843072524,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
 			"meta": {},
-			"id": "shape:tzxQXJGkdKjITdyYk4Iw3",
-			"type": "text",
+			"id": "shape:DJPdtCJszOmxwt0huJFaG",
+			"type": "arrow",
 			"props": {
-				"color": "orange",
+				"kind": "elbow",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
 				"size": "m",
-				"w": 147.2375030517578,
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -683.744324195771,
+					"y": -118.17802763208061
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
 				"font": "draw",
-				"textAlign": "start",
-				"autoSize": true,
-				"scale": 1,
-				"richText": {
-					"type": "doc",
-					"content": [
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "Item model"
-								}
-							]
-						}
-					]
-				}
+				"scale": 1
 			},
 			"parentId": "page:page",
-			"index": "aB3Om",
+			"index": "aH2wZ",
 			"typeName": "shape"
 		},
 		{
@@ -790,17 +1282,35 @@
 			"typeName": "document"
 		},
 		{
+			"meta": {},
+			"id": "binding:4_MmC6ugf1qDAF_Or83Ej",
+			"type": "arrow",
+			"fromId": "shape:DJPdtCJszOmxwt0huJFaG",
+			"toId": "shape:Xeosua5SKTTjJ_I8TMkfy",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0,
+					"y": 0.08409800183605481
+				},
+				"snap": "edge",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
+				"tldraw:color": "black",
 				"tldraw:geo": "rectangle",
-				"tldraw:color": "orange",
-				"tldraw:font": "draw"
+				"tldraw:arrowKind": "elbow"
 			},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "default",
+				"type": "grabbing",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -810,8 +1320,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1098.4000244140625,
-				"h": 592
+				"w": 1008.6666870117188,
+				"h": 605.3333740234375
 			},
 			"insets": [
 				false,
@@ -826,7 +1336,7 @@
 			"isChatting": false,
 			"highlightedUserIds": [],
 			"isFocused": true,
-			"devicePixelRatio": 1.25,
+			"devicePixelRatio": 1.5,
 			"isCoarsePointer": false,
 			"isHoveringCanvas": true,
 			"openMenus": [],
@@ -839,199 +1349,40 @@
 			"typeName": "instance"
 		},
 		{
-			"x": -227.88978840938887,
-			"y": 1113.024864161579,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
 			"meta": {},
-			"id": "shape:nDH3n5Rn0weJZA4v615EZ",
-			"type": "text",
+			"id": "binding:Bjd3h3DGWG-3VflT66hMk",
+			"type": "arrow",
+			"fromId": "shape:NgLKUI7IaT-jz65ZWSP6q",
+			"toId": "shape:zeTxBYCUHcDZhLJeAKs7o",
 			"props": {
-				"color": "orange",
-				"size": "m",
-				"w": 313.4624938964844,
-				"font": "draw",
-				"textAlign": "start",
-				"autoSize": true,
-				"scale": 1,
-				"richText": {
-					"type": "doc",
-					"content": [
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "id"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "name -> string"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "description -> model"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "images"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "price->string"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "discount ->string"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "discounted price ->string"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "availability ->boolean"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "category"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "rating ->model"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "reviews->model"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "seller->model"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "tags->string"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "timestamps"
-								}
-							]
-						}
-					]
-				}
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0,
+					"y": 0.05868567080605018
+				},
+				"snap": "edge",
+				"terminal": "end"
 			},
-			"parentId": "page:page",
-			"index": "aC4PI",
-			"typeName": "shape"
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:nn7hgwrOnw91VjPbhf-lV",
+			"type": "arrow",
+			"fromId": "shape:DJPdtCJszOmxwt0huJFaG",
+			"toId": "shape:zeTxBYCUHcDZhLJeAKs7o",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.6349786926344122,
+					"y": 0.4299426921145389
+				},
+				"snap": "none",
+				"terminal": "start"
+			},
+			"typeName": "binding"
 		},
 		{
 			"x": 293.05122018410185,
