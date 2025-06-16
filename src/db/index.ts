@@ -1,7 +1,7 @@
 import { drizzle } from "drizzle-orm/neon-http";
 import { neon } from "@neondatabase/serverless";
 
-let db;
+let db: ReturnType<typeof drizzle>;
 
 const connectDB = async () => {
     try {
