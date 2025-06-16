@@ -36,13 +36,13 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 1421.2540932541926,
-			"y": 505.8529730333582,
-			"lastActivityTimestamp": 1750082494241,
+			"x": 1358.7016957162723,
+			"y": 831.8795839877621,
+			"lastActivityTimestamp": 1750095903708,
 			"meta": {}
 		},
 		{
-			"x": 1197.8933618776803,
+			"x": 1198.9296279531031,
 			"y": 361.879810643527,
 			"rotation": 0,
 			"isLocked": false,
@@ -53,7 +53,7 @@
 			"props": {
 				"color": "orange",
 				"size": "m",
-				"w": 352.72918701171875,
+				"w": 363.2395935058594,
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
@@ -82,6 +82,42 @@
 								{
 									"type": "text",
 									"text": "name -> string"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "email -> string"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "phoneNo -> string"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "password -> string"
 								}
 							]
 						},
@@ -165,7 +201,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "money_dashboard -> model"
+									"text": "bankDetails -> model"
 								}
 							]
 						},
@@ -173,13 +209,58 @@
 							"type": "paragraph",
 							"attrs": {
 								"dir": "auto"
-							}
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "paymentDashboard -> model"
+								}
+							]
 						}
 					]
 				}
 			},
 			"parentId": "page:page",
 			"index": "aF53j",
+			"typeName": "shape"
+		},
+		{
+			"x": 1044.6651566901087,
+			"y": 304.7244459208656,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:akwCVzirw58dEZEs-xFky",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 141.64584350585938,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "OneToMany"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aH184",
 			"typeName": "shape"
 		},
 		{
@@ -360,9 +441,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -479.58149836829347,
-			"y": -202.90450134053265,
-			"z": 0.7107920286291644,
+			"x": -394.82716999240375,
+			"y": -104.30968581195108,
+			"z": 0.6432372507556217,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -723,9 +804,9 @@
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:DJPdtCJszOmxwt0huJFaG"
+				"shape:ijkxfhDMZOgYHTXRkfVre"
 			],
-			"hoveredShapeId": "shape:zeTxBYCUHcDZhLJeAKs7o",
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -829,8 +910,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 844.675322507605,
-			"y": 310.46793489998265,
+			"x": 833.7565757091004,
+			"y": 750.0500082588098,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -840,11 +921,11 @@
 			"props": {
 				"color": "orange",
 				"size": "m",
-				"w": 115.20169903297882,
+				"w": 155.5501199735595,
 				"font": "draw",
 				"textAlign": "start",
-				"autoSize": true,
-				"scale": 0.7720861737765682,
+				"autoSize": false,
+				"scale": 0.947627130985313,
 				"richText": {
 					"type": "doc",
 					"content": [
@@ -868,8 +949,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 1292.6233180638112,
-			"y": 308.4183648874333,
+			"x": 1276.0405937827902,
+			"y": 819.3756561817011,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -1127,8 +1208,8 @@
 			"id": "shape:2KveaAQtguS33oZP4bj_X",
 			"type": "geo",
 			"props": {
-				"w": 396.74060720548914,
-				"h": 389.2372367938224,
+				"w": 390.5220618782386,
+				"h": 458.67773868768217,
 				"geo": "rectangle",
 				"color": "orange",
 				"labelColor": "black",
@@ -1231,41 +1312,22 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 1451.2675319662512,
-			"y": 499.28749843072524,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
 			"meta": {},
-			"id": "shape:DJPdtCJszOmxwt0huJFaG",
+			"id": "binding:MmZ7R7Vcx75RXTaYhW0Ze",
 			"type": "arrow",
+			"fromId": "shape:K-cnQhFxkVUYjmLPecXEK",
+			"toId": "shape:_SCqv0Nm9lK8dUKd4n_U7",
 			"props": {
-				"kind": "elbow",
-				"elbowMidPoint": 0.5,
-				"dash": "draw",
-				"size": "m",
-				"fill": "none",
-				"color": "black",
-				"labelColor": "black",
-				"bend": 0,
-				"start": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
 					"x": 0,
-					"y": 0
+					"y": 0.03960120638622893
 				},
-				"end": {
-					"x": -683.744324195771,
-					"y": -118.17802763208061
-				},
-				"arrowheadStart": "none",
-				"arrowheadEnd": "arrow",
-				"text": "",
-				"labelPosition": 0.5,
-				"font": "draw",
-				"scale": 1
+				"snap": "edge",
+				"terminal": "start"
 			},
-			"parentId": "page:page",
-			"index": "aH2wZ",
-			"typeName": "shape"
+			"typeName": "binding"
 		},
 		{
 			"meta": {},
@@ -1282,35 +1344,15 @@
 			"typeName": "document"
 		},
 		{
-			"meta": {},
-			"id": "binding:4_MmC6ugf1qDAF_Or83Ej",
-			"type": "arrow",
-			"fromId": "shape:DJPdtCJszOmxwt0huJFaG",
-			"toId": "shape:Xeosua5SKTTjJ_I8TMkfy",
-			"props": {
-				"isPrecise": true,
-				"isExact": false,
-				"normalizedAnchor": {
-					"x": 0,
-					"y": 0.08409800183605481
-				},
-				"snap": "edge",
-				"terminal": "end"
-			},
-			"typeName": "binding"
-		},
-		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:color": "black",
-				"tldraw:geo": "rectangle",
 				"tldraw:arrowKind": "elbow"
 			},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "grabbing",
+				"type": "move",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -1349,6 +1391,100 @@
 			"typeName": "instance"
 		},
 		{
+			"x": 780.3769802819512,
+			"y": 372.7435670122318,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:K-cnQhFxkVUYjmLPecXEK",
+			"type": "arrow",
+			"props": {
+				"kind": "elbow",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 828.1030792621888,
+					"y": 280.87097185478217
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aFhPG",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:6AU_HD5hW__nBMTwDnMJb",
+			"type": "arrow",
+			"fromId": "shape:K-cnQhFxkVUYjmLPecXEK",
+			"toId": "shape:zeTxBYCUHcDZhLJeAKs7o",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5711038179462608,
+					"y": 0.5696684534538149
+				},
+				"snap": "none",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 1050.8837494610952,
+			"y": 515.1185786407616,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:5QyzS8aBrwiN4tAZuYG3l",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 120.8125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "OneToOne"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aI4MW",
+			"typeName": "shape"
+		},
+		{
 			"meta": {},
 			"id": "binding:Bjd3h3DGWG-3VflT66hMk",
 			"type": "arrow",
@@ -1363,24 +1499,6 @@
 				},
 				"snap": "edge",
 				"terminal": "end"
-			},
-			"typeName": "binding"
-		},
-		{
-			"meta": {},
-			"id": "binding:nn7hgwrOnw91VjPbhf-lV",
-			"type": "arrow",
-			"fromId": "shape:DJPdtCJszOmxwt0huJFaG",
-			"toId": "shape:zeTxBYCUHcDZhLJeAKs7o",
-			"props": {
-				"isPrecise": true,
-				"isExact": false,
-				"normalizedAnchor": {
-					"x": 0.6349786926344122,
-					"y": 0.4299426921145389
-				},
-				"snap": "none",
-				"terminal": "start"
 			},
 			"typeName": "binding"
 		},
