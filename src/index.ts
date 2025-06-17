@@ -1,9 +1,14 @@
-import { Hono } from 'hono'
+import app from "./app";
+import { connectDB } from "./db";
 
-const app = new Hono()
-
-app.get('/', (c) => {
-  return c.text('Hello Hono!')
-})
-
-export default app
+connectDB()
+  .then(() => {
+    console.log(`Server Running on Port: ${Bun.env.PORT}`);
+    Bun.serve({
+      fetch: app.fetch,
+      port: Bun.env.PORT,
+    });
+  })
+  .catch((error) => {
+    console.error("Error connecting to the database:", error);
+  });
